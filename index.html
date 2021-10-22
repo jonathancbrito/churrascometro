@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-Latn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascometro</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body style="background-image: url(images/bg1.jpg);">
+    
+  <h1>Saiba quanta comida e bebida vai precisar!</h1>
+   <section class="churrascometro">
+    <img id="homer"src="./images/homer.png" alt="homer">
+      <h2>Churrascômetro</h2>
+
+        <h3>Quantidade de Adultos
+           <input id="adultos" name="adultos" type="number" placeholder="Adultos" min="0" max="1000">
+        </h3>
+
+        <h3>Quantidade de Crianças
+           <input id="criancas" name="criancas" type="number" placeholder="Crianças" min="0" max="1000">
+        </h3>
+
+        <h3>Duração do Evento
+           <input id="horas" name="horas" type="number" placeholder="Duração(h)" min="1" max="24">
+        </h3>
+
+        <button class="btn" id="btnCalc" onclick="calc()">Calcular</button>
+        <button class="btn" id="btnClear" onclick="btnClearData()" onmouseover="btnClearONM()">Limpar Dados</button> 
+ </section>
+
+  <div id="resultDiv">
+   <h2 id="resTitle">Você vai precisar de</h2>
+   <ul>
+      <li id="resCarne"></li>
+      <li id="resCerveja"></li>
+      <li id="resRefri"></li>
+      <li id="resPreco"></li>
+      <footer>&copy; Churrascômetro</footer> 
+   </ul>
+  </div>
+
+   
+   <script src="./script/script.js"></script> 
+
+</body>
+</html>
