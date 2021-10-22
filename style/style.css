@@ -1,0 +1,142 @@
+
+@font-face{
+    font-family: "akbar";
+    src: url(/churrascometro/fonts/akbar.ttf);
+}
+
+body{
+    font-family: akbar, Arial, Helvetica, sans-serif; 
+    background-color: #49b0e4e7;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    margin: 0;
+    padding: 3px;
+    box-shadow: 20px white;
+}
+
+#homer{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.churrascometro{
+    background-color: rgba(245, 229, 1, 0.973);
+    box-sizing: border-box;
+    margin: -3px;
+    text-align: center;
+    width: 390px;
+    height: 752px;
+    border-width: 2px 2px 2px 2px;
+    border-style: none;
+    border-radius: 12px;
+    padding: 17.5px;
+    float: right;
+}
+
+h1{
+    font-size: 2.2rem;
+    margin-left: 150px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    color: yellow;
+    border-color: black;
+    background-color: #49b0e4b4;
+    float: left;
+}
+
+h2{
+    color: #49b1e4; 
+    letter-spacing: 0.1em;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(48, 48, 49, 0.795);
+}
+
+input{
+    box-sizing: border-box;
+    display: list-item;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 9%;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.btn{
+    background-color: #49b1e4;
+    color: rgb(255, 247, 240); 
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    font-family: akbar;
+    font-size: 11.2px;
+}
+
+#resTitle{
+    font-size: 30px;
+    color: rgba(24, 22, 22, 0.89);
+    margin-top: 50px;
+}
+
+#resultDiv{
+    float: left;
+    width: 600px;
+    height: 650px;
+    margin-top: 1px;
+    margin-left: 320px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(245, 229, 1, 0.89);
+    display:none; /* será mostrado quando clicar em calcular */
+}
+
+ul{
+    width: 70%;
+    margin-left: 10px;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 30px;
+}
+
+li{
+    border: 1px solid rgba(0, 0, 0, 0.336);  
+    border-radius: 30px;
+    font-size: 21.2px;
+    font-weight: bold;
+    margin: 5px;
+    color: lightseagreen;
+    background-color: rgba(245, 229, 1, 0.788);
+}
+
+#resCarne{
+    list-style-image: url("https://img.icons8.com/officel/40/000000/steak-well-done.png");
+}
+
+#resCerveja{
+    list-style-image: url("https://img.icons8.com/color/48/000000/beer-can.png");
+}
+
+#resRefri{
+    list-style-image: url("https://img.icons8.com/fluency/48/000000/cola.png");
+}
+
+#resPreco{
+    list-style-image: url("https://img.icons8.com/color/48/000000/us-dollar--v1.png");
+    margin: 40px;
+} 
+
+footer {
+    font-style: italic;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.205);
+}
