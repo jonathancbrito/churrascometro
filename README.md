@@ -15,12 +15,14 @@
   </a>
 </p>
 
+<br/>
+
 <p align="center">Página inicial
-  <img alt="mockup" src="readme_images/pg1.png" width="100%">
+  <img alt="mockup" src="readme_images/pg1.png" width="900px">
 </p>
 
 <p align="center">Página de resultado
-  <img alt="mockup" src="readme_images/pg2.png" width="100%">
+  <img alt="mockup" src="readme_images/pg2.png" width="900px">
 </p>
 
 <p align="center">
